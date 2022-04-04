@@ -52,7 +52,7 @@ public class LoginActivity extends BaseActivity{
         setContentView(R.layout.activity_login);
         swipeRefresh = findViewById(R.id.signin_no_connection_refresh);
         swipeRefresh.setOnRefreshListener(() -> {
-            checkConnectivity(); // your code
+            checkConnectivity();
             swipeRefresh.setRefreshing(false);
         });
         checkConnectivity();
@@ -93,7 +93,9 @@ public class LoginActivity extends BaseActivity{
         List<AuthUI.IdpConfig> providers = Arrays.asList(
                 new AuthUI.IdpConfig.GoogleBuilder().build(),
                 new AuthUI.IdpConfig.EmailBuilder().build(),
-                new AuthUI.IdpConfig.FacebookBuilder().build());
+                new AuthUI.IdpConfig.FacebookBuilder().build(),
+                new AuthUI.IdpConfig.TwitterBuilder().build());
+
 
         Intent signInIntent = AuthUI.getInstance()
                 .createSignInIntentBuilder()
