@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_graph"
+    app:startDestination="@+id/navigation_map">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.go4luncch.fragments.MapsFragment"
+        android:label="Hungry"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.example.go4luncch.fragments.RestaurantsFragment"
+        android:label="Hungry"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_navigation_list_to_placeDetailActivity2"
+            app:destination="@id/placeDetailActivity"
+           />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_workmates"
+        android:name="com.example.go4luncch.fragments.WorkMatesFragment"
+        android:label="workmates"
+        tools:layout="@layout/fragment_work_mates" />
+
+    <activity
+        android:id="@+id/placeDetailActivity"
+        android:name="com.example.go4luncch.RestaurantsActivity"
+        android:label="PlaceDetailActivity" />
+</navigation>

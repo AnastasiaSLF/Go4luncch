@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "257447377688",
+    "project_id": "fir-oc-f329c",
+    "storage_bucket": "fir-oc-f329c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257447377688:android:5f7cdb41ab6476ac6b3c6d",
+        "android_client_info": {
+          "package_name": "com.example.go4luncch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257447377688-6c5v8jfa6gk93996f4laf4aatt4u96ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASX_3JpQyZvGFS8V2TmHJfN6cW8u8pHuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257447377688-6c5v8jfa6gk93996f4laf4aatt4u96ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257447377688:android:f5762b5d79ff65546b3c6d",
+        "android_client_info": {
+          "package_name": "com.example.go4lunch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257447377688-6c5v8jfa6gk93996f4laf4aatt4u96ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASX_3JpQyZvGFS8V2TmHJfN6cW8u8pHuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257447377688-6c5v8jfa6gk93996f4laf4aatt4u96ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

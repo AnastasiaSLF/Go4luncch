@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Go4luncch</string>
+    <string name="facebook_application_id" translatable="false">957903278176536</string>
+    <string name="fb_login_protocol_scheme">fb957903278176536</string>
+    <string name="facebook_client_token">f25574de8b08d5be92fe34c069fee1a3</string>
+
+
+    <string name="your_lunch">YOUR LUNCH</string>
+    <string name="settings">SETTINGS</string>
+    <string name="logout">LOGOUT</string>
+
+    <string name="bottom_navigation_menu_map" translatable="false"> Map View</string>
+    <string name="bottom_navigation_menu_list" translatable="false">List View</string>
+    <string name="bottom_navigation_menu_workmates" translatable="false">Workmates</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+
+    <string name="title_bar">I\'m Hungry</string>
+    <string name="no_restaurant_choose">No restaurant choose for the moment</string>
+    <string name="deconnected">You\'re deconnected</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="distance">%1$d\m</string>
+
+
+    <string name="opening_hours_not_avalaible">Opening Hours not available</string>
+    <string name="open_until">Open Until</string>
+    <string name="closing_soon">Closing Soon</string>
+    <string name="closed">Closed</string>
+
+    <string name="like_btn" translatable="false">LIKE</string>
+    <string name="website_btn">WEBSITE</string>
+    <string name="call_btn">CALL</string>
+    <string name="photo_resto">photo_resto</string>
+
+    <string name="eat_at">eat at</string>
+    <string name="not_decided">hasn\'t decided yet</string>
+
+    <string name="unknown_error">Error unknown error</string>
+
+    <string name="permissions_denied_text">You need to enable the location in order to use the app. If you don\'t you will have a default location that will not be necessarily yours.</string>
+    <string name="no_lunch_spot_notification">You don\'t have any lunch spot yet!</string>
+    <string name="restaurantCounter">(%d)</string>
+    <string name="place_open">Open now</string>
+    <string name="place_close">Close</string>
+
+
+    <string name="text_restaurant_first_line">Restaurant Name</string>
+    <string name="text_restaurant_second_line">restaurant_type_and_address</string>
+    <string name="text_third_line" translatable="false">restaurant_hours</string>
+    <string name="restaurant_distance">restaurant distance</string>
+    <string name="restaurant_text_number_workmates">workmates number</string>
+    <string name="restaurant_rating">restaurant_rating</string>
+    <string name="restaurant_picture">restaurant_picture</string>
+    <string name="text_workmate">text_workmate_name</string>
+    <string name="workmate_picture">workmate_picture</string>
+    <string name="item_restaurant_no_picture_no_text" translatable="false">No Pic</string>
+    <string name="details_phone" translatable="false">Tel :</string>
+
+    <string name="alertdialog_extendradius_message">No restaurant at %1$dm from your location. Extend the research by 1km?</string>
+    <string name="alertdialog_extendradius_title">Extend the research radius?</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="radius" translatable="false">Default radius</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="item_statut_open">OPEN</string>
+    <string name="item_statut_close">CLOSE</string>
+    <string name="no_picture">No picture</string>
+    <string name="restaurant_list_no_restaurants_to_show">No restaurant to show</string>
+
+    <string name="title_mapview">Map View</string>
+
+    <string name="permissions_not_granted" translatable="false">Permission not granted</string>
+    <string name="item_workmates_restaurant_text_null">has\'nt decided yet.</string>
+    <string name="no_phone_number">No phone number</string>
+    <string name="no_website">No website</string>
+    <string name="workmates_list_no_workmates_to_show">No workmates.</string>
+
+    <string name="restaurant_details_picture_description" translatable="false">restaurant_details_picture</string>
+    <string name="restaurant_details_star1_description" translatable="false">restaurant_details_star1</string>
+    <string name="restaurant_details_star2_description" translatable="false">restaurant_details_star2</string>
+    <string name="restaurant_details_star3_description" translatable="false">restaurant_details_star3</string>
+    <string name="fragment_restaurant_details_button_restaurant_choice_description" translatable="false">fragment_restaurant_details_button_restaurant_choice</string>
+    <string name="fragment_restaurant_details_button_backpress_description" translatable="false">fragment_restaurant_details_button_backpress</string>
+
+    <string name="item_workmates_joigning_text">is joigning</string>
+    <string name="details_fragment_alertdialog_restaurant_choice_change_message">Do you want to cancel your previous restaurant choice for the %1$s restaurant ?</string>
+    <string name="details_fragment_alertdialog_restaurant_choice_change_title">Change your restaurant choice ?</string>
+    <string name="details_fragment_alertdialog_restaurant_choice_cancellation_message">Do you want to cancel this restaurant choice ?</string>
+    <string name="item_workmates_restaurant_text">is joining the restaurant: \n  %1$s.</string>
+    <string name="details_fragment_alertdialog_restaurant_choice_cancellation_title" tools:ignore="MissingTranslation">Cancel this restaurant choice?</string>
+    <string name="restaurant_details_phone_call" translatable="false">CALL</string>
+    <string name="restaurant_details_website">WEBSITE</string>
+    <string name="restaurant_Chosen" translatable="false">You chose the restaurant %1$s.</string>
+    <string name="fragment_settings_update_notifications_text" translatable="false">update notification</string>
+    <string name="fragment_settings_backpress_description" translatable="false">backpress description</string>
+    <string name="fragment_settings_radius_search" translatable="false" tools:ignore="PluralsCandidate">Radius search: %1$d meters</string>
+    <string name="fragment_settings_title">Settings</string>
+
+    <string name="notification_lunch_title">Your lunch for today!</string>
+    <string name="notification_no_lunch_chosen">Unfortunately, you did not chose a restaurant today!</string>
+    <string name="notification_lunch_alone">" You chose the restaurant: %1$s.\nlocated at %2$s\nUnfortunately, you will eat alone…"</string>
+    <string name="notification_lunch_with_one_workmate">You chose the restaurant: %1$s \nlocated at %2$s \nYou will lunch with one workmate: %3$s.</string>
+    <string name="notification_lunch_with_few_workmate" tools:ignore="PluralsCandidate">You chose the restaurant: %1$s \n located at %2$s.\n You will lunch with %3$d workmates: %4$s.</string>
+    <string name="notification_workmatesstring_builder_and">" and "</string>
+    <string name="notifications_no_internet_connection">Please connect to the network to know the details of your lunch.</string>
+    <string name="notifications_firebase_failure">Please tap the notification to see further details about your today lunch.</string>
+
+    <string name="notification_no_choice">No choice made</string>
+    <string name="toolbar_title_login_activity">Your profile</string>
+    <string name="text_input_username">User name</string>
+    <string name="text_view_email">email :</string>
+    <string name="button_update_account" translatable="false">Mettre à jour le nom d\'utilisateur</string>
+    <string name="button_delete_account" translatable="false">Supprimer mon compte</string>
+    <string name="button_sign_out_account">Logout</string>
+    <string name="info_no_email_found">No adress mail</string>
+    <string name="info_no_username_found" translatable="false">Aucun nom d\'utilisateur</string>
+    <string name="popup_message_confirmation_delete_account" translatable="false">Es-tu sûr(e) de vouloir supprimer ton compte ?</string>
+    <string name="popup_message_choice_yes">Yes !</string>
+    <string name="popup_message_choice_no">No !</string>
+    <string name="appSentence">Find a nice restaurant and invite your co-workers for lunch!</string>
+    <string name="notification" translatable="false">Notification</string>
+    <string name="appName">Go4Lunch</string>
+    <string name="logoTextDescription" translatable="false">logo description</string>
+    <string name="signin_no_connection_image_description" translatable="false">image no description</string>
+    <string name="signin_no_connection_text" translatable="false">No connection available</string>
+    <string name="bg_portraitBackgroundDescription" translatable="false">Background_image</string>
+
+    <string name="menu_main_activity_search" translatable="false">Menu setting</string>
+    <string name="menu_main_activity_clear">Clear</string>
+    <string name="autoCompleteTextView_noresult">No results found</string>
+
+</resources>
